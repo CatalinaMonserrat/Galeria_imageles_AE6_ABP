@@ -10,22 +10,45 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     </head>
     <body>
-        <h1 class="titulo"> Galeria Bambi, Batman & Mushu</h1>
+        <header class="encabezado">
+            <h1 class="titulo"> Galeria Bambi, Batman & Mushu</h1>
+            <p class="frase">“Cuidado: aquí hay niveles de ternura peligrosamente altos.”</p>
+        <!-- Contenedor del parrafo -->
+             <div class="parrafo">
+                <p>Esta galeria les presenta una colección de fotos de Bambi, Batman y Mushu, que son la razon de mi felicidad día a día. Por lo que a continuación les presente a Bambi quien es el primero en llegar a mi vida y que actualmente es un abuelito de 12 años (mañoso, pero feliz), luego tenemos a Batman, que actualmente tiene 10 años y que es el más celoso de sus hermanos pero muy regalon, y por ultimo Mushu, quien es mi bebe de 5 años y es el rey de mi corazon. </p>
+            </div>
+        </header>
+
         <!-- Contenedor de las imagenes -->
+        <section class="galeria-bambi">
+            <h2 class="subtitulo">Bambi</h2>
+            <div class="galeria">
+                <img src="Assets/img/BAMBI_1.jpeg" class="miniatura" alt="Perro blanco">
+                <img src="Assets/img/BAMBI_2.jpeg" class="miniatura" alt="Perro blanco">
+                <img src="Assets/img/BAMBI_3.jpeg" class="miniatura" alt="Perro blanco">
+                <img src="Assets/img/BAMBI_4.jpeg" class="miniatura" alt="Perro blanco"> 
+              </div>
+
+        </section>
+        <section class="galeria-batman">
+            <h2 class="subtitulo">Batman</h2>
+            <div class="galeria">
+                <img src="Assets/img/BATMAN_1.jpeg" class="miniatura" alt="perro negro">
+                <img src="Assets/img/BATMAN_2.jpeg" class="miniatura" alt="perro negro">
+                <img src="Assets/img/BATMAN_3.jpeg" class="miniatura" alt="perro negro">
+                <img src="Assets/img/BATMAN_4.jpeg" class="miniatura" alt="perro negro">
+            </div>
+        </section>
+        <section class="galeria-mushu">
+            <h2 class="subtitulo">Mushu</h2>
         <div class="galeria">
-            <img src="Assets/img/BAMBI_1.jpeg" class="miniatura" alt="Perro blanco">
-            <img src="Assets/img/BATMAN_1.jpeg" class="miniatura" alt="perro negro">
             <img src="Assets/img/MUSHU_1.jpeg" class="miniatura" alt="Gato Romano">
-            <img src="Assets/img/BAMBI_2.jpeg" class="miniatura" alt="Perro blanco">
-            <img src="Assets/img/BATMAN_2.jpeg" class="miniatura" alt="perro negro">
             <img src="Assets/img/MUSHU_2.jpeg" class="miniatura" alt="gato romano">
-            <img src="Assets/img/BAMBI_3.jpeg" class="miniatura" alt="Perro blanco">
-            <img src="Assets/img/BATMAN_3.jpeg" class="miniatura" alt="perro negro">
             <img src="Assets/img/MUSHU_3.jpeg" class="miniatura" alt="gato romano">
-            <img src="Assets/img/BAMBI_4.jpeg" class="miniatura" alt="Perro blanco">
-            <img src="Assets/img/BATMAN_4.jpeg" class="miniatura" alt="perro negro">
             <img src="Assets/img/MUSHU_4.jpeg" class="miniatura" alt="gato romano">
         </div>
+        </section>
+        
         <!-- Contenedor del modal -->
         <div id="modal" class="modal">
             <span class="cerrar">&times;</span>
@@ -34,6 +57,9 @@
             <button id="siguiente" class="boton">&#10095;</button>
         </div>
 
+        <footer class="pie">
+            <p>El amor verdadero tiene bigotes, orejas y una cola que no deja de moverse</p>
+        </footer>
 
         <script src="Assets/script.js"></script>
     </body> 

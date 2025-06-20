@@ -7,29 +7,84 @@
 
 body {
     min-height: 100vh;
-     background-image: linear-gradient(-45deg, #f3c4ed 100%);
+     background-image: linear-gradient(-45deg, #e9d5e6 100%);
     font-family: 'Raleway', sans-serif;
 }
 
+.encabezado {
+  background: linear-gradient(135deg, #d186e4, #ee93d3);
+  padding: 30px 20px;
+  text-align: center;
+  border-bottom: 5px solid #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
 .titulo {
-    margin-top: 50px;
     font-size: 40px;
     font-family: arial, sans-serif;
     margin-bottom: 40px;
     color: #000000;
     text-align: center;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.frase {
+  font-style: italic;
+  font-size: 20px;
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.parrafo {
+    font-size: 20px;
+    font-family: arial, sans-serif;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+    text-align: justify;
+    line-height: 1.7;    
+}
+
+section { 
+    margin-bottom: 100px;    
+}
+
+.pie {
+    background-color: #d186e4;
+    padding: 30px 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-style: italic;
+    box-shadow: 0 -5px 10px rgba(0,0,0,0.2);
+}
+
+.pie p {
+    margin: 0;
+}
+.subtitulo {
+    font-size: 30px;
+    font-family: arial, sans-serif;
+    margin-bottom: 40px;
+    margin-left: 150px;
+    color: #000000;
+    text-align: left;
 }
 
 .galeria {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 60px;
+    gap: 100px;
 }
 
 .miniatura {
-    width: 400px;
-    height: auto;
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
     object-fit: cover;
     border-radius: 10px;
     cursor: pointer;
@@ -43,7 +98,6 @@ body {
 /* Estilos y visualización del modal */
 .modal {
     display: none; /* invisible al inicio */
-    display: flex;
     position: fixed; /* se queda fijo aunque hagas scroll */
     top: 0;
     left: 0;
@@ -95,4 +149,36 @@ body {
 
 #siguiente {
     right: 40px;
+}
+
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 36px;
+  }
+
+  .frase {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+
+  .parrafo {
+    font-size: 16px;
+    padding: 0 15px;
+    text-align: left;
+  }
+
+  .subtitulo {
+    margin-left: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .galeria {
+    gap: 30px;
+  }
+
+  .miniatura {
+    max-width: 90%;
+    height: auto;
+  }
 }
