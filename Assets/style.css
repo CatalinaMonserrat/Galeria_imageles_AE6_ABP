@@ -87,10 +87,10 @@ section {
 }
 
 .pie {
-    background-color: #d186e4;
+    background-color: #ffffff;
     padding: 30px 20px;
     text-align: center;
-    color: #fff;
+    color: #000000;
     font-size: 16px;
     font-style: italic;
     box-shadow: 0 -5px 10px rgba(0,0,0,0.2);
@@ -103,7 +103,6 @@ section {
     font-size: 40px;
     font-family: arial, sans-serif;
     margin-bottom: 20px;
-    margin-left: 150px;
     color: #4a004e;
     text-align: center
 }
