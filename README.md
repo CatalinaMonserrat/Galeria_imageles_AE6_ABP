@@ -1,13 +1,33 @@
-Galería con fotografias de Bambi, Batman y Mushu
-Este proyecto es una galeria web interactiva que presenta fotografias de mis tres compañeros inseparables.
+Este proyecto corresponde al trabajo realizado en el módulo 2 del bootcamp de desarrollo web. Consiste en una galería de imágenes sencilla y responsiva, desarrollada con HTML y CSS, que representa el aprendizaje de estructuras básicas de maquetación y diseño visual.
 
-¿Que hace la galeria?
--Muestra fotos organizadas por cada uno.
--Al hacer clic en la imagen se abre tamaño grande en un modal
--Se puede navegar entre imagenes con botón "anterior" y "siguiente"
--Cuenta con diseño responsivo, adaptable para pantallas pequeñas
+Objetivos del Proyecto
+  -Aplicar conocimientos básicos de HTML y CSS.
+  -Estructurar contenido visual mediante cajas (divs).
+  -Usar propiedades de diseño para alinear, distribuir y personalizar elementos.
+  -Crear una experiencia visual armónica y responsiva.
 
-Tecnologias utilizadas
--HTML
--CSS
--JQuery
+Tecnologías Utilizadas
+  - HTML5
+  - CSS3
+  - JavaScript
+  - JQuery
+
+Vista previa del proyecto
+
+<p align="center">
+  <img src="Assets/galeria_fotografica.jpg" alt="Vista previa del proyecto" width="600"/>
+</p>
+
+Estructura del Proyecto
+  Galeria_imageles_AE6_ABP/
+    ├── index.html
+    └── style.css
+    
+Cómo Ejecutar
+    - Clona este repositorio: git clone https://github.com/CatalinaMonserrat/Galeria_imageles_AE6_ABP.git
+    - Abre el archivo index.html en tu navegador.
+
+Autor
+Catalina Monserrat
+Bootcamp Desarrollo Web con Python/Django
+GitHub: @CatalinaMonserrat
